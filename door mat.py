@@ -3,11 +3,13 @@ def fun(p,q):
   a=int((p+1)/2-1)
   b=int((p+1)/2)
   c=int(p)
+  
   for i in range(1,a+1):
     u=i+(i-1)
     v=x*u
     print(v.center(q,'-'))
   print('WELCOME'.center(q,'-'))
+  
   for i in range(b+1,c+1):
     r=((p+1)/2)+1
     d=int(p-(2*(i-r+1)))
